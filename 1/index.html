@@ -35,13 +35,14 @@
         </ul>
       </nav>
     </header>
-
     <main>
-      <h1 class="visually-hidden"> Добро пожаловать в Седону></h1>
-      <img class="welcome-sedona" src="#" alt="Логотип Седона">
-      <h2 class="about-sedona">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-      <p class="advantages-sedona">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-      <section class="sedona-town">
+      <section class="hero">
+        <h1 class="visually-hidden"> Добро пожаловать в Седону</h1>
+        <img class="welcome-sedona" src="#" alt="Логотип Седона">
+        <h2 class="about-sedona">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <p class="advantages-sedona">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </section>
+      <section class="sedona-town-advantages">
         <ul class="advantages-list">
           <li class="advantages-items">
             <h3>Настоящий городок</h3>
@@ -87,12 +88,40 @@
         <h2 class="about-sedona">Заинтересовались?</h2>
         <p class="advantages-sedona">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в
           Седоне</p>
-          <a class="button-search-hotel"  href="#">Посмотреть все</a>
+        <a class="button-search-hotel" href="catalog.html">Поиск гостиницы в Седоне</a>
+      </section>
+      <section class="mailing">
+        <h2 class="about-sedona">Подпишитесь на рассылку</h2>
+        <p class="advantages-sedona">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="mail-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="email">Email</label>
+          <input class="field" placeholder="Ваш e-mail" type="email" name="email" id="email" required>
+          <button class="button button-mail" type="submit">Подписаться</button>
+        </form>
       </section>
     </main>
-
     <footer>
+      <section class="footer-contacts">
+        <ul class="social-list">
+          <li class="social-item">
+            <a class="social-button" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Vkontakte</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-button" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Telegram</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-button" href="https://youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Youtube</span>
+            </a>
+          </li>
+        </ul>
+        <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <p class="about-text"> <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
+      </section>
     </footer>
   </body>
-
 </html>
