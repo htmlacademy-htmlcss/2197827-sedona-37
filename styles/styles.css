@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.page-header {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+
+.main-index {
+  background-color: #FFFFFF;
+}
+
+.wrapper-welcome-sedona {
+  background-image: url("../images/main-hero.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.advantages-sedona {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.about-sedona {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.sedona-description {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantages-items-color {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.sedona-description-color {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.about-sedona-mailing{
+  color: #FFFFFF;
+}
+
+.advantages-sedona-mailing {
+  color: #FFFFFF;
+}
+
+.about-sedona-mailing {
+  text-transform: uppercase;
+}
+
+.button-search-hotel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+  text-decoration: none;
+}
+
+.mailing {
+  background-image: url("../images/mailing.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.page-footer {
+  background-color: #FFFFFF;
+}
+
+.footer-contacts-address-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color:#000000;
+  text-align: center;
+
+}
+
+.main-inner {
+  background-color: #FFFFFF;
+}
+
+.main-inner-wrapper {
+  background-image: url("../images/catalog-images/background-hotels-sedona.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.results {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color:#000000;
+  text-transform: uppercase;
+}
+
+.hotel-card-link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color:#000000;
+  text-decoration: none;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.filter-button {
+  background-color: #82B3D3;
+}
+
+.navigation-link-button {
+  background-color: #756157;
+}
+
+.card-button {
+  background-color: #756157;
+}
+
+.button-primary {
+  background-color: #82B3D3;
+}
+
+.button-active {
+  background-color: #7DB54F;
+}
+
+.button-mail {
+  background-color: #82B3D3
+}

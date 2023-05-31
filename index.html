@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -29,39 +30,41 @@
             <a class="navigation-link" href="#">Счетчик лайков</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-button" href="#">Хочу сюда!</a>
+            <a class="navigation-link-button button" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main-index">
       <section class="hero">
+        <div class="wrapper-welcome-sedona">
         <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
         <img class="welcome-sedona" src="images/welcome.svg" width="458" height="352" alt="Логотип Седона">
+        </div>
         <h2 class="about-sedona">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p class="advantages-sedona">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
       <section class="sedona-town-advantages">
         <ul class="advantages-list">
-          <li class="advantages-items">
-            <h3>Настоящий городок</h3>
+          <li class="advantages-items-color">
+            <h3 class="sedona-description-color">Настоящий городок</h3>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="section-photo" src="images/sedona-town.jpg" width="800" height="385" alt="Улицы Седоны">
           </li>
           <li class="advantages-items">
-            <h3>Небольшая площадь</h3>
+            <h3 class="sedona-description">Небольшая площадь</h3>
             <p class="advantages-description">Все достопримечательности находятся очень близко</p>
           </li>
           <li class="advantages-items">
-            <h3>Красивая дорога</h3>
+            <h3 class="sedona-description">Красивая дорога</h3>
             <p class="advantages-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="advantages-items">
-            <h3>Мало туристов</h3>
+            <h3 class="sedona-description">Мало туристов</h3>
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
-          <li class="advantages-items">
-            <h3>Там есть мост дьявола</h3>
+          <li class="advantages-items-color">
+            <h3 class="sedona-description-color">Там есть мост дьявола</h3>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             <img class="section-photo" src="images/canyon.jpg" width="800" height="385" alt="Мост Дьявола">
           </li>
@@ -71,16 +74,16 @@
         <h2 class="about-sedona">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
         <p class="advantages-sedona">Опытный персонал и качественное обслуживание!</p>
         <ul class="services-list">
-          <li class="services-item">
-            <h3>Жильё</h3>
+          <li class="services-item-color">
+            <h3 class="sedona-description">Жильё</h3>
             <p class="services-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="services-item">
-            <h3>Еда</h3>
+            <h3 class="sedona-description">Еда</h3>
             <p class="services-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li class="services-item">
-            <h3>Сувениры</h3>
+          <li class="services-item-color">
+            <h3 class="sedona-description">Сувениры</h3>
             <p class="services-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
         </ul>
@@ -90,8 +93,8 @@
         <a class="button-search-hotel" href="catalog.html">Поиск гостиницы в Седоне</a>
       </section>
       <section class="mailing">
-        <h2 class="about-sedona">Подпишитесь на рассылку</h2>
-        <p class="advantages-sedona">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <h2 class="about-sedona-mailing">Подпишитесь на рассылку</h2>
+        <p class="advantages-sedona-mailing">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="mail-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="email">Email</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="email" id="email" required>
@@ -99,7 +102,7 @@
         </form>
       </section>
     </main>
-    <footer>
+    <footer class="page-footer">
       <section class="footer-contacts">
         <ul class="social-list">
           <li class="social-item">
