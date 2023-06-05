@@ -14,16 +14,20 @@
   font-display: swap;
 }
 
+.html {
+  background-color: #F2F2F2;
+}
+
+
 body {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  background-color: #F2F2F2;
+  background-color: #FFFFFF;;
 }
 
 .page-header {
-  background-color: #FFFFFF;
   color: #000000;
 }
 
@@ -34,10 +38,6 @@ body {
   color: #000000;
   text-decoration: none;
   text-align: center;
-}
-
-.main-index {
-  background-color: #FFFFFF;
 }
 
 .wrapper-welcome-sedona {
@@ -104,21 +104,12 @@ body {
   background-repeat: no-repeat;
 }
 
-.page-footer {
-  background-color: #FFFFFF;
-}
-
 .footer-contacts-address-phone {
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
   color:#000000;
   text-align: center;
-
-}
-
-.main-inner {
-  background-color: #FFFFFF;
 }
 
 .main-inner-wrapper {
