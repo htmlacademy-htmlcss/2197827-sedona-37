@@ -1,0 +1,352 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+  background-color: #F2F2F2;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 1200px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #130c0c;
+  background-color: #FFFFFF;;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.logo {
+  margin-left: 70px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 510px;
+  margin-left: 44px;
+  display: flex;
+}
+
+.navigation-user {
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  width: 88px;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.page-header {
+  color: #000000;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 16px;
+}
+
+.hero-img {
+  background-image: url("../images/main-hero.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.page-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-description {
+  width: 651px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.services-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantages-item-full {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.advantages-title-full {
+  text-transform: uppercase;
+}
+
+.mailing-home{
+  color: #FFFFFF;
+}
+
+.mailing-title {
+  color: #FFFFFF;
+}
+
+.button-search-hotel {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+  text-decoration: none;
+}
+
+.mailing {
+  background-image: url("../images/mailing.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color:#000000;
+  text-align: center;
+  margin-left: 237px;
+}
+
+.catalog-filter {
+  background-image: url("../images/catalog-images/background-hotels-sedona.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.catalog-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.results {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color:#000000;
+  text-transform: uppercase;
+}
+
+.hotel-card-link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color:#000000;
+  text-decoration: none;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation-link-button {
+  background-color: #756157;
+  margin-right: 70px;
+  margin-left: 20px;
+}
+
+.gallery-button-more {
+  background-color: #756157;
+}
+
+.gallery-favorites-active {
+  background-color: #7DB54F;
+}
+
+.button-light {
+  background-color: #82B3D3
+}
+
+.page-footer {
+  display: flex;
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+  margin-left: 70px;
+  display: flex;
+}
+
+.htmlacademy-link {
+  margin-right: 70px;
+  margin-left: auto;
+}
+
+.welcome-sedona {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages-list  {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.advantages-container {
+  display: flex;
+}
+
+.advantages-container-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.advantages-item {
+  width: 400px;
+}
+
+.advantages-content {
+  margin-left: 85px;
+  margin-right: 85px;
+  text-align: center;
+}
+
+.services-list {
+  display: flex;
+  padding: 0;
+}
+
+.services-item  {
+  margin-left: 85px;
+  margin-right: 85px;
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+}
+
+.filter-form {
+  display: flex;
+  width: 1060px;
+}
+
+.filter-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.catalog-sorting  {
+  display: flex;
+  margin-left: 70px;
+}
+
+.catalog-header {
+  margin-left: 70px;
+}
+
+.hotels-types {
+  margin-left: 70px;
+}
+
+.sorting-select {
+  margin-left: 200px;
+  width: 290px;
+}
+
+.sorting-view {
+  margin-right: 70px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+  padding: 0;
+  gap: 8px
+}
+
+.view-item {
+  width: 48px;
+}
+.gallery {
+  margin-left: 70px;
+}
+
+.mailing-home {
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list-reset {
+  list-style-type: none;
+  padding: 0;
+}
+
+.advantages-image {
+  margin: 0;
+  line-height: 4px;
+}
+
+.breadcrumbs  {
+  display: flex;
+}
