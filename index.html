@@ -22,17 +22,17 @@
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-list navigation-user list-reset">
-          <li class="navigation-item">
-            <a class="navigation-link link-search" href="#">
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-user-item">
+            <a class="navigation-link navigation-user-link link-search" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link user-favorites" href="#">
+          <li class="navigation-user-item">
+            <a class="navigation-link navigation-user-link user-favorites" href="#">
               <span class="user-favorites-number">12</span>
               <span class="visually-hidden">Избранное</span>
             </a>
@@ -43,12 +43,12 @@
       </nav>
     </header>
     <main class="main-container main-index">
+      <div class="hero-wrappper">
       <section class="hero">
-        <div class="hero-img">
           <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
           <img class="welcome-sedona" src="images/welcome.svg" width="458" height="352" alt="Логотип Седона">
-        </div>
       </section>
+      </div>
       <section class="advantages">
         <div class="advantages-description">
           <p class="advantages-description-title page-title">Седона — небольшой городок в Аризоне, <br>заслуживающий
@@ -74,7 +74,7 @@
               <p class="advantages-text">Все достопримечательности находятся очень близко</p>
             </div>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item other-color">
             <div class="advantages-content">
               <h3 class="advantages-title">Красивая <br>дорога</h3>
               <p class="advantages-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
@@ -100,9 +100,9 @@
         </ul>
       </section>
       <section class="services">
-        <div class="advantages-description">
-          <p class="services-description-title page-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
-          <p class="advantages-description-text page-text">Опытный персонал и качественное обслуживание!</p>
+        <div class="advantages-description advantages-services">
+          <p class="services-description-title page-title">Приезжайте в Седону отдохнуть</br>в комфорте и уюте!</p>
+          <p class="advantages-services-text page-text">Опытный персонал и качественное обслуживание!</p>
         </div>
         <ul class="services-list list-reset">
           <li class="services-item services-color services-home">
@@ -121,14 +121,12 @@
       </section>
       <section class="search">
         <h2 class="search-title page-title">Заинтересовались?</h2>
-        <p class="search-text page-text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения
-          гостиниц в
-          Седоне</p>
-        <a class="search-hotel button button-modal" href="#">Поиск гостиницы в Седоне</a>
+        <p class="search-text page-text">Укажите предполагаемые даты поездки,</br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a class="button-search-hotel button button-modal" href="#">Поиск гостиницы в Седоне</a>
       </section>
       <section class="mailing mailing-home">
         <h2 class="mailing-title page-title">Подпишитесь на рассылку</h2>
-        <p class="mailing-text page-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="mailing-text page-text">Только полезная информация и никакого спама, </br>честное бойскаутское!</p>
         <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="email">Email</label>
           <input class="mailing-field form-input" placeholder="Ваш e-mail" type="email" name="email" id="email"
