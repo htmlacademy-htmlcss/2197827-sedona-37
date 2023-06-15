@@ -90,6 +90,7 @@ body {
   background-image: url("../images/main-hero.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #66a1c9;
 }
 
 .page-text {
@@ -103,11 +104,13 @@ body {
   flex-direction: column;
   padding-top: 69px;
   padding-bottom: 69px;
+  margin-bottom: 21px;
 }
 
 .advantages-services {
   padding-top: 64px;
   padding-bottom: 64px;
+  margin-bottom: 0;
 
 }
 
@@ -118,6 +121,7 @@ body {
 
 .advantages-services-text {
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .page-title {
@@ -134,6 +138,8 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
+  margin: 0;
+  margin-bottom: 62px;
 }
 
 .services-title {
@@ -141,11 +147,10 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
-}
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 183px;
 
-.advantages-services-text {
-  margin: 0;
-  margin-top: 20px;
 }
 
 .services-color {
@@ -161,6 +166,13 @@ body {
   width: 400px;
 }
 
+.services-text {
+  margin: 0;
+  padding-right: 85px;
+  padding-left: 85px;
+  padding-bottom: 81px;
+}
+
 .advantages-item-full {
   color: #FFFFFF;
   background-color: #82B3D3;
@@ -168,10 +180,7 @@ body {
 
 .advantages-title-full {
   text-transform: uppercase;
-}
-
-.button-search-hotel {
-  align-self: center;
+  margin-top: 0;
 }
 
 .contacts-phone {
@@ -179,8 +188,6 @@ body {
   line-height: 40px;
   text-decoration: none;
   color:#000000;
-  text-align: center;
-  margin-left: 237px;
 }
 
 .catalog-filter {
@@ -241,18 +248,15 @@ body {
 
 .page-footer {
   display: flex;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  padding-left: 70px;
+  padding-right: 70px;
+  justify-content: space-between;
 }
 
 .social-list {
-  margin: 0;
-  padding: 0;
-  margin-left: 70px;
   display: flex;
-}
-
-.htmlacademy-link {
-  margin-right: 70px;
-  margin-left: auto;
 }
 
 .welcome-sedona {
@@ -287,9 +291,24 @@ body {
 }
 
 .advantages-content {
-  margin-left: 85px;
-  margin-right: 85px;
+  width: 400px;
   text-align: center;
+  padding-top: 113px;
+  padding-bottom: 112px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-full {
+  padding-bottom: 102px;
+  padding-top: 102px;
+}
+
+.advantages-text {
+  margin: 0;
+  padding-left: 85px;
+  padding-right: 85px;
 }
 
 .search {
@@ -303,6 +322,12 @@ body {
 .search-text {
   margin-top: 20px;
   margin-bottom: 54px;
+}
+
+.button-search-hotel {
+  align-self: center;
+  font-size: 20px;
+  line-height: 36px;
 }
 
 .filter-form {
@@ -360,6 +385,7 @@ body {
   flex-direction: column;
   padding-top: 96px;
   padding-bottom: 104px;
+  background-color: #66a1c9;
 }
 
 .mailing-home {
@@ -383,7 +409,19 @@ body {
 }
 
 .mailing-field {
-  width: 452px;
+  background: #F2F2F2;
+  border: 0;
+  border-radius: 4px 0 0 4px;
+  width: 412px;
+  padding: 14px 20px 14px 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.subscribe-button {
+  border-radius: 0 4px 4px 0;
+  font-size: 20px;
+  line-height: 36px;
 }
 
 .visually-hidden {
