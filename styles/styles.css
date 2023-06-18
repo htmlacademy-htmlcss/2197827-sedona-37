@@ -194,13 +194,13 @@ body {
   background-image: url("../images/catalog-images/background-hotels-sedona.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  color: #FFFFFF;
 }
 
 .catalog-title {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
-  color: #FFFFFF;
   margin-top: 0;
   margin-bottom: 8px;
 }
@@ -236,10 +236,6 @@ body {
   margin-left: 20px;
   padding: 8px 34px;
   align-self: center;
-}
-
-.gallery-favorites-active {
-  background-color: #7DB54F;
 }
 
 .button-light {
@@ -332,23 +328,32 @@ body {
 
 .filter-form {
   display: flex;
-  width: 1060px;
+  padding-left: 70px;
+  justify-content: space-between;
+  padding-right: 70px;
 }
 
 .filter-button {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+.button-transparent {
+background-color: transparent;
 }
 
 .catalog-sorting  {
   display: flex;
-  margin-left: 70px;
+  padding-left: 70px;
+  padding-top: 56px;
+  padding-bottom: 46px;
 }
 
 .catalog-header {
-  margin-left: 70px;
+  padding-left: 70px;
+  padding-bottom: 40px;
 }
 
 .hotels-types {
@@ -358,16 +363,15 @@ body {
 .sorting-select {
   margin-left: 200px;
   width: 290px;
+  margin-right: 70px;
 }
 
 .sorting-view {
-  margin-right: 70px;
-  margin-left: 70px;
   display: flex;
   justify-content: space-between;
   width: 160px;
   padding: 0;
-  gap: 8px
+  gap: 8px;
 }
 
 .view-item {
@@ -381,17 +385,16 @@ body {
   background-image: url("../images/mailing.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-color: #66a1c9;
+
+}
+
+.mailing-home {
+  text-align: center;
   display: flex;
   flex-direction: column;
   padding-top: 96px;
   padding-bottom: 104px;
-  background-color: #66a1c9;
-}
-
-.mailing-home {
-  color: #FFFFFF;
-  text-align: center;
-
 }
 
 .mailing-title {
@@ -399,6 +402,7 @@ body {
 }
 
 .mailing-text {
+  color: #FFFFFF;
   margin-top: 20px;
   margin-bottom: 54px;
 }
@@ -448,4 +452,150 @@ body {
 
 .breadcrumbs  {
   display: flex;
+ width: 114px;
+ justify-content: space-between;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.filter-group {
+  border: 0;
+  padding: 0;
+  padding-bottom: 73px;
+}
+
+.filter-group-range {
+  width: 230px;
+}
+
+.filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.filter-list {
+  line-height: 23px;
+
+}
+
+.control-item {
+  margin-bottom: 16px;
+}
+
+.control-item:last-child {
+  margin-bottom: 0;
+}
+
+.gallery-list {
+  display: grid;
+  width: 1060px;
+  grid-template-columns: 340px 340px 340px;
+  grid-template-rows: 438px 438px;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.gallery-item {
+  display: grid;
+  gap: 16px;
+  grid-template-rows: 212px 28px 21px 36px 36px;
+  grid-template-columns: 140px 140px;
+  justify-content: center;
+  align-self: center;
+}
+
+.gallery-link {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gallery-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gallery-img {
+  grid-column: 1/3;
+}
+
+.gallery-link {
+  grid-column: 1/3;
+  font-size: 24px;
+  line-height: 28px;
+  color:#000000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.gallery-button-more {
+  padding: 8px 26px;
+}
+
+.gallery-button {
+  padding: 8px 20px;
+}
+
+.gallery-favorites-active {
+  background-color: #7DB54F;
+  padding: 8px 18px;
+}
+
+.gallery-rating-text {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  padding: 9px 22px 8px 23px;
+}
+
+.pagination {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding: 11px 18px;
+  text-decoration: none;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-next {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.mailing-catalog-text {
+  margin-top: 20px;
+  margin-bottom: 54px;
 }
