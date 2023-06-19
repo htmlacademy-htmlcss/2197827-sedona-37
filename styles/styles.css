@@ -534,6 +534,14 @@ background-color: transparent;
   text-decoration: none;
 }
 
+.hotel-image {
+  object-fit: scale-down;
+}
+
+.gallery-text-price {
+  text-align: right;
+}
+
 .gallery-button-more {
   padding: 8px 26px;
 }
