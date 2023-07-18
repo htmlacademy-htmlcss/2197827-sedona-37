@@ -407,7 +407,8 @@ body {
   justify-content: space-between;
   width: 160px;
   flex-wrap: wrap;
-  gap: 8px
+  gap: 8px;
+  align-items: flex-start;
 }
 
 .view-item {
@@ -462,7 +463,7 @@ body {
   border-radius: 0 4px 4px 0;
   font-size: 20px;
   line-height: 36px;
-  max-width:600px;
+  max-width: 600px;
 }
 
 .visually-hidden {
@@ -778,7 +779,7 @@ body {
 }
 
 .social-button:active {
-  fill:rgba(104, 162, 202, 0.3);
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .contacts-phone:hover {
@@ -864,7 +865,7 @@ body {
 
 .button-transparent:focus {
   outline: 3px solid #83B3D3;
-  color:rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .button-transparent:active {
@@ -1021,7 +1022,7 @@ body {
 
 .mailing-field:hover,
 .mailing-field:focus {
-background-color: #E6E6E6;
+  background-color: #E6E6E6;
 }
 
 .mailing-field:focus {
@@ -1059,7 +1060,7 @@ background-color: #E6E6E6;
 .range-scale {
   position: relative;
   height: 4px;
-  background-color:rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   margin-top: 43px;
 }
 
@@ -1105,7 +1106,7 @@ background-color: #E6E6E6;
 .filter-min::after {
   position: relative;
   color: #000000;
-  content:"от";
+  content: "от";
   top: -38px;
   left: 106px;
   font-size: 18px;
@@ -1117,7 +1118,7 @@ background-color: #E6E6E6;
 .filter-max::after {
   position: relative;
   color: #000000;
-  content:"до";
+  content: "до";
   top: -38px;
   left: 106px;
   font-size: 18px;
@@ -1143,7 +1144,7 @@ background-color: #E6E6E6;
 }
 
 .control-label {
-margin-left: 35px;
+  margin-left: 35px;
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before,
@@ -1272,16 +1273,16 @@ margin-left: 35px;
 }
 
 .appointment-form {
-display: grid;
-gap: 23px;
+  display: grid;
+  gap: 23px;
 }
 
 .form-label {
-font-size: 20px;
-line-height: 24px;
-font-weight: 700;
-color: #000000;
-width: 137px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  width: 137px;
 }
 
 .appointment-filter {
@@ -1305,7 +1306,7 @@ width: 137px;
 .modal-button {
   background-color: #F2F2F2;
   cursor: pointer;
-  padding: 14x 10px 10px 10px;
+  padding: 14px 10px 10px 10px;
 }
 
 .modal-filter-wrapper {
@@ -1335,7 +1336,7 @@ width: 137px;
 }
 
 .modal-button-plus {
-  border-radius:  0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
 }
 
 .tooltip-toggle {
@@ -1352,34 +1353,34 @@ width: 137px;
 }
 
 .modal-button svg {
-fill: rgba(117, 97, 87, 0.3);
+  fill: rgba(117, 97, 87, 0.3);
 }
 
-.modal-button:hover svg{
-  fill:#000000;
+.modal-button:hover svg {
+  fill: #000000;
 }
 
 .modal-button:focus svg {
   border: 3px solid #82B3D3;
   border-radius: 4px;
-  fill:#000000;
+  fill: #000000;
 }
 
 .modal-button:active svg {
-  fill:rgba(117, 97, 87, 0.3);
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 .modal-close-button:hover {
-  background-color:#E6E6E6;
+  background-color: #E6E6E6;
 }
 
 .modal-close-button:focus {
-  background-color:#E6E6E6;
+  background-color: #E6E6E6;
   border: 3px solid #83B3D3;
 }
 
 .modal-close-button:active {
-  background-color:#E6E6E6;
+  background-color: #E6E6E6;
   opacity: 0.3;
 }
 
@@ -1388,9 +1389,9 @@ fill: rgba(117, 97, 87, 0.3);
 }
 
 .appointment-input:focus {
-outline: 3px solid #82B3D3;
-border-radius: 4px;
-background-color: #E6E6E6;
+  outline: 3px solid #82B3D3;
+  border-radius: 4px;
+  background-color: #E6E6E6;
 }
 
 .tooltip-text {
@@ -1404,7 +1405,7 @@ background-color: #E6E6E6;
   border-radius: 10px;
   width: 256px;
   height: 143px;
-  box-shadow:  0 15px 30px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 46px;
   right: -70px;
@@ -1419,7 +1420,7 @@ background-color: #E6E6E6;
 
 .tooltip-text::before {
   position: absolute;
-  content:"";
+  content: "";
   background-image: url("../images/tooltip-arrow.svg");
   width: 19px;
   height: 9px;
@@ -1437,11 +1438,11 @@ background-color: #E6E6E6;
 }
 
 .range-input:hover {
-  background-color:  rgba(230, 230, 230, 1);
+  background-color: rgba(230, 230, 230, 1);
 }
 
 .range-input:focus {
-  background-color:  rgba(230, 230, 230, 1);
+  background-color: rgba(230, 230, 230, 1);
   outline: 3px solid #83B3D3;
 }
 
